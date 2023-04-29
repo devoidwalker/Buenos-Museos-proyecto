@@ -1,0 +1,20 @@
+div{
+    background-color: rgb(226, 226, 226);
+}
+
+.box{
+    background-color: rgb(219, 219, 219);
+    padding: 10px;
+    border: 1px, black;
+}
+
+
+.articulos{
+    height: 60px;
+    width: 20%;
+    background-color: rgb(143, 143, 143);
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    gap: 1%;
+}
