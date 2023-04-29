@@ -1,20 +1,32 @@
-div{
-    background-color: rgb(226, 226, 226);
+
+.museo1{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(228, 228, 228);
 }
 
-.box{
-    background-color: rgb(219, 219, 219);
-    padding: 10px;
-    border: 1px, black;
+.museo2{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(228, 228, 228);
+}
+.museo3{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(228, 228, 228);
 }
 
+.museo4{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(228, 228, 228);
+}
 
 .articulos{
-    height: 60px;
-    width: 20%;
-    background-color: rgb(143, 143, 143);
+    height: 50%;
+    width: 90%;
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 1;
-    gap: 1%;
+    /*grid-template-columns: 200px, 200px;*/
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 5%;
 }
