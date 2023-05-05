@@ -6,8 +6,8 @@ p {
 footer {
     width: 100%;
     height: 50px;
-    background-color: whitesmoke;
-    border: 1px solid gray;
+    background: linear-gradient(to right, yellow, white);
+    border: 1px solid whitesmoke;
 
 }
 
