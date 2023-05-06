@@ -17,10 +17,17 @@ footer {
 
 }*/
 
-img {
-    transition: 0.5s;  
+#flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
 }
 
-img:hover {
+.imagenes_footer {
+    transition: 0.5s;
+    margin: 5px;  
+}
+
+.imagenes_footer:hover {
     transform: scale(1.2); 
 }
