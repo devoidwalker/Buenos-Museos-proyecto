@@ -2,6 +2,7 @@ body{
     background-image: url("media/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    align-items: center;
 }
 
 .museo1, .museo2, .museo3, .museo4{
@@ -20,8 +21,16 @@ body{
 .articulos{
     height: 50%;
     width: 90%;
-    display: grid;
-    /*grid-template-columns: 200px, 200px;*/
-    grid-template-columns: 200px 200px 200px 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 5%;
 }
+
+/* .articulos{
+    height: 50%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 5%;
+} */
