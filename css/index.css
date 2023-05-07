@@ -2,44 +2,35 @@ body{
     background-image: url("media/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    align-items: center;
 }
 
-.museo1{
+.museo1, .museo2, .museo3, .museo4{
     height: 400px;
     width: 200px;
     background-color: rgb(228, 228, 228);
     text-align: center;
-    padding-top: 5px;
+    padding-top: 5px;    
+    transition: 0.5s;
 }
 
-.museo2{
-    height: 400px;
-    width: 200px;
-    background-color: rgb(228, 228, 228);
-    text-align: center;
-    padding-top: 5px;
-}
-.museo3{
-    height: 400px;
-    width: 200px;
-    background-color: rgb(228, 228, 228);
-    text-align: center;
-    padding-top: 5px;
-}
-
-.museo4{
-    height: 400px;
-    width: 200px;
-    background-color: rgb(228, 228, 228);
-    text-align: center;
-    padding-top: 5px;
+.museo1:hover, .museo2:hover, .museo3:hover, .museo4:hover{
+    transform: scale(1.02);
 }
 
 .articulos{
     height: 50%;
     width: 90%;
-    display: grid;
-    /*grid-template-columns: 200px, 200px;*/
-    grid-template-columns: 200px 200px 200px 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 5%;
 }
+
+/* .articulos{
+    height: 50%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 5%;
+} */
