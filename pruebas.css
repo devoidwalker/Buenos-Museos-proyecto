@@ -6,13 +6,14 @@ p {
 #contacto{
     width: 100%;
     height: 100px;
-    background: linear-gradient(to left, yellow, white);
+    background: linear-gradient(to left, #FFFF00, #FFFFFF);
     border: 1px solid whitesmoke;
 
 }
 
-input {
-    display: inline;
+#contacto{
+    display: flex;
+    align-items: normal;
 
 }
 
