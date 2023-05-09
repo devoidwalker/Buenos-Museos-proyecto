@@ -8,13 +8,14 @@ body{
     background-image: url("media/background.jpg");
     background-repeat: repeat;
     background-size: 100%;
-    bac
 }
 
 .titulos{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 60%;
+    margin: auto;
 }
 .ti1, .ti2{
     text-align: center;
@@ -37,8 +38,9 @@ body{
 }
 
 .articulos{
+    background-color: white;
     height: 50%;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -47,5 +49,6 @@ body{
     flex-grow: 1;
     flex-basis: auto;
     gap: 0%;
+    margin: auto;
 
 }
