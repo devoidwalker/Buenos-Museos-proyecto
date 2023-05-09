@@ -28,7 +28,7 @@ body{
     transition: 0.5s;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .museo1:hover, .museo2:hover, .museo3:hover, .museo4:hover{
