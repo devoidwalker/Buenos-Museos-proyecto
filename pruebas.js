@@ -11,8 +11,16 @@ function multiplicar_segunda (num1, num2) {
 
 multiplicar_segunda(2,3);
 
-const correroIgresado = document.getElementById("campo_correo");
+const correoIngresado = document.getElementById("campo_correo");
+
+
+
 
 function primeraFuncion() { 
-    alert(correroIgresado);
+    if (correoIngresado == "aaaaaa@sss.com") {
+        document.write("correo VÁLIDO");
+    } else {
+        document.write("correo INVÁLIDO");
+    }
+    
 }
