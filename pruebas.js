@@ -10,3 +10,9 @@ function multiplicar_segunda (num1, num2) {
 }
 
 multiplicar_segunda(2,3);
+
+const correroIgresado = document.getElementById("campo_correo");
+
+function primeraFuncion() { 
+    alert(correroIgresado);
+}
