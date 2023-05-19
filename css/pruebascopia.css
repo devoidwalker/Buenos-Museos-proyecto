@@ -1,0 +1,44 @@
+#contacto{
+    margin: auto;
+    width: 60%;
+    height: auto;
+    background: linear-gradient(to left, #FFFF00, #FFFFFF);
+    border: 1px solid whitesmoke;
+
+}
+
+#flex-container {
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 60%;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+}
+
+.imagenes_footer {
+    transition: 0.5s;
+    margin: 5px;  
+}
+
+.imagenes_footer:hover {
+    transform: scale(1.2); 
+}
+
+.pie_down{
+    margin: auto;
+    width: 60%;
+    height: 5px;
+    background: linear-gradient(to left, #FFFF00, #FFFFFF);
+    border: 1px solid whitesmoke;
+
+}
+
+.pie_up{
+    margin: auto;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #FFFF00, #FFFFFF);
+    border: 1px solid whitesmoke;
+
+}
