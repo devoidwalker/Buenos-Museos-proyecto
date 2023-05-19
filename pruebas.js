@@ -18,9 +18,9 @@ const correoIngresado = document.getElementById("campo_correo");
 
 function primeraFuncion() { 
     if (correoIngresado == "aaaaaa@sss.com") {
-        document.write("correo VÁLIDO");
+        document.console.warn();("correo VÁLIDO");
     } else {
-        document.write("correo INVÁLIDO");
+        document.console.warn();("correo INVÁLIDO");
     }
     
 }
