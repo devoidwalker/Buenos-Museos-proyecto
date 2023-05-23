@@ -43,7 +43,12 @@ body{
     background-color: #FFFFFF;
 }
 
-.inp_bar1{
+.inp_bar1, .inp_bar2, .inp_bar3, .inp_bar4, .inp_bar5{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/* .inp_bar1{
     margin-left: 68px;
 }
 .inp_bar2{
@@ -54,13 +59,15 @@ body{
 }
 .inp_bar4{
     margin-left: 92px;
-}
-/* 
-.form_label{
-    margin-left: 30px;
 } */
 
+.form_label{
+display: flex;
+justify-content: center;
+}
+
 .boton_enviar{
-    margin-left: 450px;
-    justify-content: right;
+display: flex;
+justify-content: center;
+margin: auto;
 }
