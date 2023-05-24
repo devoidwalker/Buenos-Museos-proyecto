@@ -34,7 +34,7 @@ function validarformulario(){
         alert("Escribir número telefónico.");
         return false;
       } else if (!validarTelefono(telefono)) {
-        alert("Formato de número telefónico inválido.");
+        alert("Formato de número telefónico inválido. (10 digitos)");
         return false;
       }
 return false
