@@ -59,10 +59,14 @@ body{
         font-size: small;
     }
    #imgm1, #imgm2, #imgm3, #imgm4{
-    width: 133px;
-    height: 133px;
+    width: 152px;
+    height: 152px;
     }
     .museo1, .museo2, .museo3, .museo4{
         margin-top: 10px;
+        height: 200px;
+    }
+    .articulos{
+        
     }
 }
